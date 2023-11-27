@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://github.com/umair763/Tour-guide</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/issues</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/pulls</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/actions</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/projects?query=is%3Aopen</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/security</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/commit/79e58110a86e0603f243f7b7d60fda530ce3d4e1</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/commit/0d2f5893191a716f2e82c03bbdf33e15a7880eec</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/releases</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/compare</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/commit/11750ac6b82a6b91b0bea0e0dc749b19074a0a2f</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels?sort=name-asc</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels?sort=name-desc</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels?sort=count-desc</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels?sort=count-asc</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/bug</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/documentation</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/duplicate</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/enhancement</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/good%20first%20issue</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/help%20wanted</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/invalid</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/question</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/labels/wontfix</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=due_date&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=completeness&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=title&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=count&amp;state=open</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/commit/50280317b3bee243a4c9f5654d4a438065c66394</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=due_date&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=completeness&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=title&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=desc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/milestones?direction=asc&amp;sort=count&amp;state=closed</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://github.com/umair763/Tour-guide/commit/b19064de7d644a0f71d27b2caef588f463bc694e</loc>
+  <lastmod>2023-11-27T13:04:32+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
