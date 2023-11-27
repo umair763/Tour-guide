@@ -1,0 +1,334 @@
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+}
+/*/////////////////////////note:: Top horizontal NavBar/////////////////////////*/
+/*/////////////////////////note:: Top horizontal NavBar/////////////////////////*/
+header {
+	padding: -40px;
+	/* background: repeating-linear-gradient(45deg, #f0f2ed, #f0f2ed 20px, #f8f4eb 20px, #f8f4eb 40px); */
+	background-color: rgb(95, 95, 95);
+	color: white;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.container {
+	padding: 0 20px;
+	max-width: 1960px;
+	margin: 0 auto;
+	display: flex; /* Use flexbox to control alignment */
+	justify-content: space-between; /* Spread items horizontally */
+	/* align-items: center;  */
+}
+.logo-box {
+	float: left;
+	margin-right: 20px;
+}
+.logo-box a {
+	outline: none;
+	display: block;
+}
+.logo-box img {
+	display: block;
+}
+nav {
+	overflow: hidden;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 25px;
+	height: 50px;
+	line-height: 50px;
+	transition: 0.5s linear;
+}
+nav a {
+	text-decoration: none;
+	display: block;
+	position: relative;
+	color: rgb(255, 255, 255);
+
+	text-transform: uppercase;
+}
+nav a:after {
+	content: "";
+	width: 0;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	background: #868686;
+	transition: width 0.5s linear;
+}
+nav a:hover:after {
+	width: 100%;
+}
+
+@media screen and (max-width: 660px) {
+	header {
+		text-align: center;
+		padding: 10px 0;
+	}
+	.logo-box {
+		float: none;
+		display: inline-block;
+		margin: 0 0 16px 0;
+	}
+	ul {
+		float: none;
+	}
+	nav li:first-of-type {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 550px) {
+	nav {
+		overflow: visible;
+	}
+	nav li {
+		display: block;
+		margin: 10px 0; /* Add vertical margin */
+		height: auto;
+		line-height: 20px;
+	}
+	nav li:hover {
+		background: rgba(0, 0, 0, 0.1);
+	}
+	nav a:after {
+		content: none;
+	}
+}
+li a:hover {
+	background-color: rgb(114, 114, 114);
+	color: black;
+	border-radius: 8px 8px 8px 8px;
+	height: 60px;
+	top: 10px;
+}
+/*/////////////////////////note:: center content/////////////////////////*/
+/*/////////////////////////note:: center content/////////////////////////*/
+
+.wrap {
+	margin: 0;
+	padding: 10px;
+	max-width: 1000px;
+	min-width: 100%; /* value was 500px*/
+	margin: auto;
+	display: flex; /* Use flexbox to arrange the sidebar and content */
+}
+
+.fluid {
+	flex-grow: 1; /* Allow the content to grow and take available space */
+	width: 100%;
+	/* margin-right: -200px; check this later*/
+}
+
+.content {
+	min-height: 100px;
+	width: 97%; /* right content width*/
+	/* background: #ddd; */
+	margin-left: 15px;
+	/* margin-right: 210px; check this later above and this is linked*/
+	margin-right: 100px;
+}
+
+.sidebar {
+	width: 355px;
+	height: auto; /* Make the sidebar height 100% of the container */
+	background: #ddd;
+	float: left;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*/////////////////////////note:: Utilities css/////////////////////////*/
+/*/////////////////////////note:: Utilities css/////////////////////////*/
+
+.paragraph-spacing {
+	margin-bottom: 3em;
+	/* You can adjust this value as needed */
+}
+/*/////////////////////////note:: Bullits/////////////////////////*/
+.custom-bullet::before {
+	content: "\2022";
+	/* You can replace this with any other character or custom image */
+	color: rgb(0, 0, 0);
+	/* Customize the bullet color */
+	font-weight: bold;
+	/* You can adjust the font weight as needed */
+	margin-right: 8px;
+	/* Add some space between the bullet and the list item text */
+}
+
+/* Optional: Reset default list styles to avoid default bullets */
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/*/////////////////////////note:: Three  animation cards/////////////////////////*/
+/*/////////////////////////note:: Three  animation cards/////////////////////////*/
+.boks {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cardd {
+	width: 266px;
+	padding: 30px;
+	text-align: center;
+	background-color: #f1f1f1;
+	border: #000000 solid 1px;
+	border-radius: 15px;
+	box-shadow: 8px 8px 16px 3px #1b3e59;
+	border-radius: 20px;
+	transition: ease-in background-color 0.6s;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.cardd:hover {
+	background-color: #f4ef8d;
+}
+
+/*/////////////////////////note:: Footer/////////////////////////*/
+/*/////////////////////////note:: Footer/////////////////////////*/
+.col_white_amrc {
+	color: #fff;
+}
+
+footer {
+	width: 100%;
+	background-color: #263238;
+	min-height: 250px;
+	padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+footer p {
+	font-size: 13px;
+	color: #ccc;
+	padding-bottom: 0px;
+	margin-bottom: 8px;
+}
+
+.mb10 {
+	padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+	margin: 0px;
+	list-style-type: none;
+	font-size: 14px;
+	padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+	padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+	color: #ccc;
+}
+
+.footer_ul_amrc li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.fleft {
+	float: left;
+}
+
+.padding-right {
+	padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+	display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+	text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+	margin-top: 5px;
+}
+
+.bottom_border {
+	border-bottom: 1px solid #323f45;
+	padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+	list-style-type: none;
+	padding: 0px;
+	display: table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto !important;
+	display: block;
+}
+
+.foote_bottom_ul_amrc li {
+	display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+	color: #999;
+	margin: 0 12px;
+}
+
+.social_footer_ul {
+	display: table;
+	margin: 15px auto 0 auto;
+	list-style-type: none;
+}
+
+.social_footer_ul li {
+	padding-left: 20px;
+	padding-top: 10px;
+	float: left;
+}
+
+.social_footer_ul li a {
+	color: #ccc;
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 50%;
+}
+
+.social_footer_ul li i {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+
+/*/////////////////////////note:: responsive setting/////////////////////////*/
+/*/////////////////////////note:: responsive setting/////////////////////////*/
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.left-column,
+	.right-column {
+		max-width: 100%;
+	}
+}
