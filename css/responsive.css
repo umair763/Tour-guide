@@ -1,0 +1,210 @@
+/* Responsive styles for Adventurous Tour Website */
+
+/* Base responsive typography using fluid scaling */
+:root {
+	--fluid-min-width: 320;
+	--fluid-max-width: 1200;
+	--fluid-min-size: 16;
+	--fluid-max-size: 18;
+	--fluid-min-scale: 1.2;
+	--fluid-max-scale: 1.25;
+}
+
+/* Smooth transitions for all responsive elements */
+* {
+	transition: all 0.3s ease-in-out;
+}
+
+/* Modern Header Responsive Styles */
+.modern-header {
+	position: relative;
+}
+
+.header-container {
+	padding: 1rem;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+/* Mobile Navigation Toggle */
+.nav-toggle {
+	display: none;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	z-index: 1000;
+	padding: 0.5rem;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+/* For large screens (desktops) */
+@media screen and (min-width: 1025px) {
+	.wrap {
+		display: flex;
+		gap: 2rem;
+		max-width: 1400px;
+		margin: 0 auto;
+		padding: 2rem;
+	}
+
+	.sidebar {
+		flex: 0 0 300px;
+	}
+
+	.content {
+		flex: 1;
+	}
+
+	.card-group {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2rem;
+	}
+
+	.custom-carousel {
+		height: 600px;
+	}
+}
+
+/* For screens up to 1024px (tablets, smaller desktops) */
+@media screen and (max-width: 1024px) {
+	.wrap {
+		flex-direction: column;
+		padding: 1.5rem;
+	}
+
+	.sidebar {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.card-group {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1.5rem;
+	}
+
+	.custom-carousel {
+		height: 500px;
+	}
+}
+
+/* For screens up to 768px (tablets) */
+@media screen and (max-width: 768px) {
+	.nav-toggle {
+		display: block;
+	}
+
+	nav {
+		position: fixed;
+		top: 0;
+		right: -100%;
+		height: 100vh;
+		width: 80%;
+		max-width: 400px;
+		background: white;
+		box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+		transition: right 0.3s ease-in-out;
+		z-index: 999;
+	}
+
+	nav.active {
+		right: 0;
+	}
+
+	nav ul {
+		flex-direction: column;
+		padding: 2rem;
+	}
+
+	nav li {
+		margin: 1rem 0;
+	}
+
+	.logo-box {
+		max-width: 150px;
+	}
+
+	.custom-carousel {
+		height: 400px;
+	}
+
+	.card-group {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	.featured-section {
+		padding: 1rem;
+	}
+}
+
+/* For screens up to 480px (mobile phones) */
+@media screen and (max-width: 480px) {
+	.header-container {
+		padding: 0.5rem;
+	}
+
+	.logo-box {
+		max-width: 120px;
+	}
+
+	.custom-carousel {
+		height: 300px;
+	}
+
+	.carousel-btn {
+		width: 30px;
+		height: 30px;
+	}
+
+	.carousel-indicators {
+		bottom: 10px;
+	}
+
+	.main-content {
+		padding: 1rem;
+	}
+
+	.card {
+		margin-bottom: 1rem;
+	}
+
+	.card-body {
+		padding: 1rem;
+	}
+
+	.book-btn {
+		width: 100%;
+	}
+}
+
+/* Utility classes for better spacing */
+.mt-responsive {
+	margin-top: clamp(1rem, 3vw, 2rem);
+}
+
+.mb-responsive {
+	margin-bottom: clamp(1rem, 3vw, 2rem);
+}
+
+.p-responsive {
+	padding: clamp(1rem, 3vw, 2rem);
+}
+
+/* Enhanced accessibility for touch devices */
+@media (hover: none) {
+	.card:hover {
+		transform: none;
+	}
+
+	.book-btn {
+		padding: 1rem;
+	}
+}
